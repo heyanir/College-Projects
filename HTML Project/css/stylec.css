@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+#logo{
+    height: 100px;
+    width: 360px;
+    padding: 10px 10px 20px 40px;
+}
+.topnav {
+    background-color: #EDE4E0;
+    overflow:hidden;
+    border: none;
+    height: 100px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.topnav li{
+    padding: 25px 12px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 1px;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+  /* Add a color to the active/current link */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+}
+.contact
+{
+    position: relative;
+    min-height: 40vh;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+.contact .content
+{
+    max-width: 800px;
+}
+.contact .content h2
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.contact .content p
+{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#img{
+    padding-right: 50px;
+    width: 250px;
+    height: 100px;
+}
+
+
+
+.container
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+}
+.container .contactInfo .box .text
+{
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+    width: 100%;
+}
+.container .contactInfo .box .text p
+{
+    padding: 10px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #474E68;
+}
+.footer p{
+    padding-top:20px ;
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#logo{
+    height: 80px;
+    width: 360px;
+    padding: 10px 10px 20px 40px;
+}
+.topnav {
+    background-color: #EDE4E0;
+    overflow:hidden;
+    border: none;
+    height: 100px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.topnav li{
+    padding: 25px 12px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 1px;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+  /* Add a color to the active/current link */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+}
+ 
+#feedbackMiddle{
+    
+    padding: 100px 0px 200px 550px;
+    position: absolute;
+}
+
+
+#feedbackMiddle h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+
+#feedbackMiddle input{
+    width: 350px;
+}
+
+#formButton{
+    margin: 1% 351px;
+    height: 20px;
+    width: 60px;
+    
+}
+#formButton:hover{
+    background-color: Black;
+    color: white;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #474E68;
+}
+.footer p{
+    padding-top:20px ;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+#textarea{
+    margin-left: 70px;
+    height: 100px;
+    width: 340px;
+}
+
+.inputf{
+    margin: 10px;
+ 
+}

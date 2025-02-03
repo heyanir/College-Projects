@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#logo{
+    height: 80px;
+    width: 360px;
+    padding: 10px 10px 20px 40px;
+}
+.topnav {
+    background-color: #EDE4E0;
+    overflow:hidden;
+    border: none;
+    height: 100px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.topnav li{
+    padding: 25px 12px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 1px;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+  /* Add a color to the active/current link */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+}
+
+
+marquee{
+    width:"100%"; 
+}
+
+marquee img{
+    width: 100%;
+    height: 250px;
+}
+
+#loginform{
+    height: 300px;
+    width: 310px;
+    padding-left: 20px;
+    border: 1px solid;
+    border-color: black;
+    
+}
+
+#loginform h3{
+    font-size: xx-large;
+    padding: 30px 10px 60px;
+}
+#loginform input{
+    margin: 0px 5px;
+
+}
+.form{
+    padding-left: 10px;
+}
+
+#loginform button{
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#loginform button:hover{
+   background-color: black;
+   color: beige;
+   border-radius: 10px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left .right{
+    width: 25%;
+}
+
+.middle{
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.middle h3{
+    padding: 10px 0px 7px 300px;
+}  
+
+.middle  li{
+    margin: 10px 1px;
+    padding-left: 20px;
+}  
+
+.right h3{
+    font-size: 30px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #474E68;
+    bottom: 0;
+    position: fixed;
+
+}
+.footer p{
+    padding-top:20px ;
+    font-size: 12px;
+    text-align: center;
+}
+
+.right li{
+    margin: 10px 1px;
+    padding-left: 20px;
+}
